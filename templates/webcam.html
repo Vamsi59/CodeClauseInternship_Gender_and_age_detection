@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2021/03/23/09/01/webcam-6116845_1280.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/styles/webcam.css">
+
+    <title>Live Detection</title>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <a href="/"><button>BACK</button></a>
+            <h2>Detecting Age and Gender</h2>
+        </div>
+        
+        <div class="container">   
+            <img src="{{ url_for('video_feed') }}" alt="Live Detection">
+        </div>
+    </div>
+</body>
+</html>
